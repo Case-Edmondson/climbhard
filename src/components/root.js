@@ -45,11 +45,7 @@ class RootComponent extends React.Component {
     return (
       <div className="relative">
         <h1> World's hardest climbs </h1>
-        <div>{longBlock}</div>
-        <ClimbingMap />
-        <TimeMap />
         <Hairball />
-        <Timeline />
       </div>
     );
   }
